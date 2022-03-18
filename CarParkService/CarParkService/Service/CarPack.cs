@@ -101,5 +101,10 @@ namespace CarPark.Service
                 return -1;
             }
         }
+
+        public List<PackingTicket> GetAlltickets()
+        {
+            return applicationdb.PackingTickets.ToList();
+        }
     }
 }

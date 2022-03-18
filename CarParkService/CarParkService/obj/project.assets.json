@@ -5986,11 +5986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkService\\CarParkService\\CarParkService.csproj",
+      "projectUniqueName": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkServiceRepo\\CarPackAPISolution\\CarParkService\\CarParkService\\CarParkService.csproj",
       "projectName": "CarParkService",
-      "projectPath": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkService\\CarParkService\\CarParkService.csproj",
+      "projectPath": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkServiceRepo\\CarPackAPISolution\\CarParkService\\CarParkService\\CarParkService.csproj",
       "packagesPath": "C:\\Users\\AVeryPrivatePerson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkService\\CarParkService\\obj\\",
+      "outputPath": "C:\\Users\\AVeryPrivatePerson\\Documents\\Job tasks\\Fuelmetrics\\CarParkServiceRepo\\CarPackAPISolution\\CarParkService\\CarParkService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

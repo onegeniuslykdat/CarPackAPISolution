@@ -1,4 +1,5 @@
 ﻿using CarPark.Service;
+using CarParkService.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -19,12 +20,18 @@ namespace CarParkService.Controllers
             carpack = _carpack;
         }
 
-        [HttpGet("GetAmount")]
+        [HttpPost("GetAmount")]
         public async Task<int> Solution(string E, string L)
         {
             int result = (int)(await carpack.GetAmountToPay(E, L));
 
             return result;
+        }
+
+        [HttpGet("GetAlltickets")]
+        public List<PackingTicket> AllTickets()
+        {
+            return carpack.GetAlltickets();
         }
     }
 }
